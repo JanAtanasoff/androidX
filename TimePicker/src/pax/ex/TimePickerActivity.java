@@ -37,7 +37,7 @@ public class TimePickerActivity extends Activity {
             }
         });
 
-        // get the current time
+        // get the current time of your location - commented by lukas
         final Calendar c = Calendar.getInstance();
         mHour = c.get(Calendar.HOUR_OF_DAY);
         mMinute = c.get(Calendar.MINUTE);
